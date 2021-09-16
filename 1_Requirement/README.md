@@ -4,7 +4,7 @@ The Seat Heating and Monitoring System is capable of maintaining the required he
 In our project the main aim is to design and develop the system which is capable of monitoring the presence of the passenger and heat monitoring and displaying the corresponding value.
 # Features
 * It determines the existance of the passengers.
-* The passenger or diver is capable of accessing the temperature according to there requirement.
+* The passenger or driver is capable of accessing the temperature according to there requirement.
 * Modification of temperature can be done.
 * Economic
 # SWOT Analysis
