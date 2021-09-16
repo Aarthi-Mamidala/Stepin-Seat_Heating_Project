@@ -5,6 +5,8 @@ The Seat Heating and Monitoring System is capable of maintaining the required he
 # BADGES
 [![CI](https://github.com/Aarthi-Mamidala/Stepin-Seat_Heating_Project/actions/workflows/main.yml/badge.svg)](https://github.com/Aarthi-Mamidala/Stepin-Seat_Heating_Project/actions/workflows/main.yml)
 
+[![C/C++ CI](https://github.com/Aarthi-Mamidala/Stepin-Seat_Heating_Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Aarthi-Mamidala/Stepin-Seat_Heating_Project/actions/workflows/c-cpp.yml)
+
 
 
 
