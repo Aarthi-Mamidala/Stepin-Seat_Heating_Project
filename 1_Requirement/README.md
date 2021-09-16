@@ -8,4 +8,6 @@ In our project the main aim is to design and develop the system which is capable
 * Modification of temperature can be done.
 * Economic
 # SWOT Analysis
+![Screenshot (300)](https://user-images.githubusercontent.com/89648059/133557976-ccd06d8f-ff7f-4a87-817a-ecb9f0107027.png)
+
 
