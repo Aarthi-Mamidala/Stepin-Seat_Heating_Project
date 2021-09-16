@@ -1,4 +1,4 @@
-## Activity-3
+## OUTPUT
 * Displaying the temperature
 
 |PWM_20%|PWM_40%|
