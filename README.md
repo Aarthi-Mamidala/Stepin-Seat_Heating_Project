@@ -21,6 +21,6 @@ Folder                   | Description
 `7_`Others      | Other files
 
 ## Contributors List and Summary
-|PS no. |  Name   |    Features    |No Test Cases|Test Case Pass|
-|-------|---------|----------------|-------------|--------------|
-| `99006165` | Mamidala Aarthi | |  16  |  16 |
+|PS no. |  Name   |    Features    |
+|-------|---------|----------------|
+| `99006165` | Mamidala Aarthi |Heater temperature is modified|
