@@ -10,7 +10,7 @@ In our project the main aim is to design and develop the system which is capable
 # SWOT Analysis
 ![Screenshot (300)](https://user-images.githubusercontent.com/89648059/133557976-ccd06d8f-ff7f-4a87-817a-ecb9f0107027.png)
 
-# $W's and 1'H
+# 4 W's and 1'H
 * WHAT: Seat Heating And Monitoring System.
 * WHERE: Used in Europeron Countries.
 * WHEN: At very low temperatires
