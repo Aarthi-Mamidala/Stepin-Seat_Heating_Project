@@ -1,5 +1,5 @@
-#include "activity3.h"
-#include "activity2.h"
+#include "Activity3.h"
+#include "Activity2.h"
 
 void InitTimer()
 {
@@ -8,7 +8,7 @@ void InitTimer()
     DDRB |=(1<<PB1);
 }
 
-void activity3_PWM(uint16_t temp)
+void Activity3_PWM(uint16_t temp)
 
 
 
