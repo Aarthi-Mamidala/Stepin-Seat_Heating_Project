@@ -1,4 +1,4 @@
-#include "activity4.h"
+#include "Activity4.h"
 
 void USARTInit()
 {
@@ -17,15 +17,17 @@ int USARTRead()
     return UDR0;
 }
 
-void activity4_USARTWrite(uint16_t temp)
+void Activity4_USARTWrite(uint16_t temp)
 {
     int i=0;
         if(temp>=0 && temp<=200){
             unsigned char data1[]="Temperature: 20 degree C\n";
             i=0;
             while(data1[i]!=0){
-            while (!( UCSR0A & (1<<UDRE0)));  // Wait for empty transmit buffer
-            UDR0 = data1[i];        // Put data into buffer, sends the data
+                // Wait for empty transmit buffer
+            while (!( UCSR0A & (1<<UDRE0))); 
+                // Put data into buffer, sends the data
+            UDR0 = data1[i];        
             i++;
             }
             _delay_ms(2000);
@@ -34,8 +36,8 @@ void activity4_USARTWrite(uint16_t temp)
             unsigned char data2[]="Temperature: 25 degree C\n";
             i=0;
             while(data2[i]!=0){
-            while (!( UCSR0A & (1<<UDRE0)));  // Wait for empty transmit buffer
-            UDR0 = data2[i];        // Put data into buffer, sends the data
+            while (!( UCSR0A & (1<<UDRE0)));  
+            UDR0 = data2[i];        
             i++;
             }
             _delay_ms(2000);
@@ -44,8 +46,8 @@ void activity4_USARTWrite(uint16_t temp)
              unsigned char data3[]="Temperature: 29 degree C\n";
             i=0;
             while(data3[i]!=0){
-            while (!( UCSR0A & (1<<UDRE0)));  // Wait for empty transmit buffer
-            UDR0 = data3[i];        // Put data into buffer, sends the data
+            while (!( UCSR0A & (1<<UDRE0)));  
+            UDR0 = data3[i];        
             i++;
             }
             _delay_ms(2000);
@@ -54,8 +56,8 @@ void activity4_USARTWrite(uint16_t temp)
             unsigned char data4[]="Temperature: 33 degree C\n";
             i=0;
             while(data4[i]!=0){
-            while (!( UCSR0A & (1<<UDRE0)));  // Wait for empty transmit buffer
-            UDR0 = data4[i];        // Put data into buffer, sends the data
+            while (!( UCSR0A & (1<<UDRE0)));  
+            UDR0 = data4[i];       
             i++;
             }
             _delay_ms(2000);
@@ -64,8 +66,8 @@ void activity4_USARTWrite(uint16_t temp)
               unsigned char data5[]="Temperature: 0 degree C\n";
             i=0;
             while(data5[i]!=0){
-            while (!( UCSR0A & (1<<UDRE0)));  // Wait for empty transmit buffer
-            UDR0 = data5[i];        // Put data into buffer, sends the data
+            while (!( UCSR0A & (1<<UDRE0)));  
+            UDR0 = data5[i];        
             i++;
             }
             _delay_ms(2000);
