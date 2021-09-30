@@ -1,5 +1,5 @@
 # Requirements
-# Intorduction
+___Intorduction__
 The Seat Heating and Monitoring System is capable of maintaining the required heat for vehicle seats.In our project the button sensor checks whether the passenger is seated or not and after the passenger is seated the passenger have to set the temperature according to his/her requirement and then the seat starts heating and the corrsponding temperature is displayed on LCD. 
 In our project the main aim is to design and develop the system which is capable of monitoring the presence of the passenger and heat monitoring and displaying the corresponding value.
 # Features
